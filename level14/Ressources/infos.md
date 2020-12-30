@@ -1,5 +1,5 @@
-1. Apres avoir chercher des heures, j'en ai finalement deduis qu'il fallait exploit `getflag`
-2. C'est assez simple, le premier obstacle c'est la securite anti reverse-engeneering `0x0804898e`, ensuite il suffit de definir l'uid au bon endroit `0x08048b0a`
+1. Après avoir cherché pendant des heures, on en a finalement déduit qu'il fallait exploiter `getflag`
+2. C'est assez simple, le premier obstacle c'est la sécurité anti reverse-engeneering `0x0804898e`, ensuite il suffit de définir l'uid au bon endroit `0x08048b0a`
    ```
    gdb getflag
 

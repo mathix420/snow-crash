@@ -1,21 +1,21 @@
-1. Si on test le programme avec `./level09 1111111` on remaraque son fonctionnement
+1. Si on teste le programme avec `./level09 1111111` on remarque son fonctionnement
    ```
    $ ./level09 1111111
    
    1234567
    ```
-2. On peut donc creer un script permettant de recover le token
+2. On peut donc créer un script permettant de recupérer le token
 
-```
-cat ../../level08/flag
+   ```
+   cat ../../level08/flag
 
-scp -P 4242 level09@192.168.5.70:token .
+   scp -P 4242 level09@192.168.5.70:token .
 
-chmod 664 token
+   chmod 664 token
 
-./reverse.py
+   ./reverse.py
 
-=> f3iji1ju5yuevaus41q1afiuq
-```
+   => f3iji1ju5yuevaus41q1afiuq
+   ```
 
 > Flag: s5cAJpM8ev6XHw998pRWG728z

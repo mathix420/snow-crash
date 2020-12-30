@@ -1,6 +1,6 @@
-1. En regardant le fichier perl on comprends que son fonctionnement
-2. La ligne la plus importante est celle-ci `@output = `egrep "^$xx" /tmp/xd 2>&1`;`
-3. On ecrit donc un payload permettant d'exploiter la vulnerabilite
+1. En regardant le fichier perl on comprend son fonctionnement
+2. La ligne la plus importante est celle-ci ```@output = `egrep "^$xx" /tmp/xd 2>&1`;```
+3. On écrit donc un payload permettant d'exploiter la vulnérabilité
    ```
    echo -e "#! /bin/bash\ngetflag > /tmp/l1;" > /tmp/xd
 
